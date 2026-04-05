@@ -29,7 +29,7 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro",
-      "output": "static",
+      "output": "single",
       "name": "División de Cuentas",
       "shortName": "División",
       "description": "Dividí gastos fácilmente entre grupos de personas",
