@@ -27,7 +27,15 @@
       "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "static",
+      "name": "División de Cuentas",
+      "shortName": "División",
+      "description": "Dividí gastos fácilmente entre grupos de personas",
+      "themeColor": "#6C63FF",
+      "backgroundColor": "#F8F9FC",
+      "lang": "es"
     },
     "extra": {
       "eas": {
