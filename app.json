@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Divicion_de_Cuentas",
+    "name": "División de Cuentas",
     "slug": "Divicion_de_Cuentas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,17 +13,26 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marcopuliti.divisiondecuentas",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.marcopuliti.divisiondecuentas",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aeb997ee-6a94-460f-8f67-c95a6210e3b8"
+      }
     }
   }
 }
